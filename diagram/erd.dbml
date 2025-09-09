@@ -1,23 +1,46 @@
 Table users {
     id int [pk, increment]
-    isEntertainer bool
     name varchar
     email varchar
+    imageUrl varchar
 }
 
-Table bands {
+Table eventTypes {
     id int [pk, increment]
-    bandName varchar
-    userId int [ref: > users.id]
+    name varchar
     description varchar
-    rate int
 }
 
-Table bandLocations {
+Table bookings {
+    id int [pk, increment]
+    userId int [ref: > users.id]
+    eventTypeId int [ref: > eventTypes.id]
+    location varchar [ref: > locations.id]
+    date date
+}
+
+Table locations {
+    id int [pk, increment]
+    city varchar
+
+}
+
+Table artistLocations {
     id int [pk, increment]
     locationId int [ref: > locations.id]
-    bandId int [ref:> bands.id]
+    userId int [ref:> users.id]
 }
+
+
+// Table bands {
+//     id int [pk, increment]
+//     bandName varchar
+//     userId int [ref: > users.id]
+//     description varchar
+//     rate int
+// }
+
+
 
 // Table djs {
 //     id int [pk, increment]
@@ -27,40 +50,10 @@ Table bandLocations {
 //     rate int
 // }
 
-// Table djLocations {
-//     id int [pk, increment]
-//     locationId int [ref: > locations.id]
-//     djId int [ref:> djs.id]
-// }
 
-Table locations {
-    id int [pk, increment]
-    city varchar
-    state varchar
-    description varchar
-}
 
-Table eventTypes {
-    id int [pk, increment]
-    name varchar
-    description varchar
-}
 
-Table userBookings {
-    id int [pk, increment]
-    userId int [ref: > users.id]
-    eventTypeId int [ref: > eventTypes.id]
-    locationId int [ref: > locations.id]
-    date date
-}
 
-Table bandBookings {
-    id int [pk, increment]
-    bandId int [ref: > bands.id]
-    locationId int [ref: > locations.id]
-    eventTypeId int [ref: > eventTypes.id]
-    date date
-}
 
 
 
