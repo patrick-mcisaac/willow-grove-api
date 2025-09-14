@@ -1,248 +1,241 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"name": "Midnight Echo",
-			"email": "midnight.echo@music.com",
-			"imageUrl": "https://images.unsplash.com/photo-1732559417596-eb4bdc7eb639?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			"id": 2,
-			"name": "The Groove Collective",
-			"email": "groove.collective@music.com",
-			"imageUrl": "https://images.unsplash.com/photo-1617814053951-e3bd095192be?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			"id": 3,
-			"name": "Silver Strings",
-			"email": "silver.strings@music.com",
-			"imageUrl": "https://images.unsplash.com/photo-1656453843087-e9212f7fdc7a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			"id": 4,
-			"name": "Electric Pulse",
-			"email": "electric.pulse@music.com",
-			"imageUrl": "https://images.unsplash.com/photo-1598387180687-9be7e316796d?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			"id": 5,
-			"name": "Soul Harmony",
-			"email": "soul.harmony@music.com",
-			"imageUrl": "https://images.unsplash.com/photo-1635352211001-2089de8f40bd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		},
-		{
-			"id": 6,
-			"name": "Thunder Road",
-			"email": "thunder.road@music.com",
-			"imageUrl": "https://images.unsplash.com/photo-1555644226-38f3afd93ebe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-		}
-	],
-	"eventTypes": [
-		{
-			"id": 1,
-			"name": "Weddings",
-			"description": "Professional wedding photography services including ceremony, reception, and portrait sessions"
-		},
-		{
-			"id": 2,
-			"name": "Corporate Event",
-			"description": "Business events, conferences, and professional photography for corporate functions"
-		},
-		{
-			"id": 3,
-			"name": "Private Party",
-			"description": "Birthday parties, anniversaries, family gatherings, and other private celebrations"
-		}
-	],
-	"locations": [
-		{
-			"id": 1,
-			"city": "New York",
-			"imageUrl": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80"
-		},
-		{
-			"id": 2,
-			"city": "Los Angeles",
-			"imageUrl": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=800&q=80"
-		},
-		{
-			"id": 3,
-			"city": "Chicago",
-			"imageUrl": "https://unsplash.com/photos/photo-of-high-rise-building-tnv84LOjes4"
-		},
-		{
-			"id": 4,
-			"city": "Miami",
-			"imageUrl": "https://unsplash.com/photos/body-of-water-near-of-city-high-rise-buildings-KTdzeb28jyo"
-		},
-		{
-			"id": 5,
-			"city": "Seattle",
-			"imageUrl": "https://unsplash.com/photos/aerial-photography-of-seattle-skyline-skUTVJi8-jc"
-		},
-		{
-			"id": 6,
-			"city": "Austin",
-			"imageUrl": "https://unsplash.com/photos/man-in-black-jacket-walking-on-bridge-near-body-of-water-during-daytime-ztVcGTSD8xw"
-		},
-		{
-			"id": 7,
-			"city": "Denver",
-			"imageUrl": "https://unsplash.com/photos/denver-street-artowrk-r6BdUpN_iSk"
-		},
-		{
-			"id": 8,
-			"city": "Portland",
-			"imageUrl": "https://unsplash.com/photos/white-and-brown-concrete-building-4A56VJzKh2c"
-		}
-	],
-	"bookings": [
-		{
-			"id": 1,
-			"userId": 2,
-			"eventTypeId": 1,
-			"locationId": 1,
-			"date": "2025-11-15"
-		},
-		{
-			"id": 2,
-			"userId": 1,
-			"eventTypeId": 3,
-			"locationId": 2,
-			"date": "2025-10-22"
-		},
-		{
-			"id": 3,
-			"userId": 4,
-			"eventTypeId": 2,
-			"locationId": 3,
-			"date": "2025-11-07"
-		},
-		{
-			"id": 4,
-			"userId": 3,
-			"eventTypeId": 2,
-			"locationId": 3,
-			"date": "2025-11-07"
-		},
-		{
-			"id": 5,
-			"userId": 5,
-			"eventTypeId": 1,
-			"locationId": 4,
-			"date": "2025-12-20"
-		},
-		{
-			"id": 6,
-			"userId": 2,
-			"eventTypeId": 2,
-			"locationId": 1,
-			"date": "2025-10-15"
-		},
-		{
-			"id": 7,
-			"userId": 6,
-			"eventTypeId": 1,
-			"locationId": 5,
-			"date": "2026-01-18"
-		},
-		{
-			"id": 8,
-			"userId": 1,
-			"eventTypeId": 3,
-			"locationId": 6,
-			"date": "2025-11-29"
-		},
-		{
-			"id": 9,
-			"userId": 4,
-			"eventTypeId": 1,
-			"locationId": 7,
-			"date": "2026-02-14"
-		},
-		{
-			"id": 10,
-			"userId": 3,
-			"eventTypeId": 3,
-			"locationId": 2,
-			"date": "2025-10-22"
-		}
-	],
-	"artistLocations": [
-		{
-			"id": 1,
-			"locationId": 1,
-			"userId": 1
-		},
-		{
-			"id": 2,
-			"locationId": 1,
-			"userId": 2
-		},
-		{
-			"id": 3,
-			"locationId": 2,
-			"userId": 1
-		},
-		{
-			"id": 4,
-			"locationId": 2,
-			"userId": 3
-		},
-		{
-			"id": 5,
-			"locationId": 3,
-			"userId": 2
-		},
-		{
-			"id": 6,
-			"locationId": 3,
-			"userId": 4
-		},
-		{
-			"id": 7,
-			"locationId": 4,
-			"userId": 3
-		},
-		{
-			"id": 8,
-			"locationId": 4,
-			"userId": 5
-		},
-		{
-			"id": 9,
-			"locationId": 5,
-			"userId": 4
-		},
-		{
-			"id": 10,
-			"locationId": 5,
-			"userId": 6
-		},
-		{
-			"id": 11,
-			"locationId": 6,
-			"userId": 5
-		},
-		{
-			"id": 12,
-			"locationId": 6,
-			"userId": 1
-		},
-		{
-			"id": 13,
-			"locationId": 7,
-			"userId": 6
-		},
-		{
-			"id": 14,
-			"locationId": 7,
-			"userId": 4
-		},
-		{
-			"id": 15,
-			"locationId": 8,
-			"userId": 3
-		}
-	]
+  "users": [
+    {
+      "id": 1,
+      "name": "Midnight Echo",
+      "email": "midnight.echo@music.com",
+      "imageUrl": "https://images.unsplash.com/photo-1732559417596-eb4bdc7eb639?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 2,
+      "name": "The Groove Collective",
+      "email": "groove.collective@music.com",
+      "imageUrl": "https://images.unsplash.com/photo-1617814053951-e3bd095192be?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 3,
+      "name": "Silver Strings",
+      "email": "silver.strings@music.com",
+      "imageUrl": "https://images.unsplash.com/photo-1656453843087-e9212f7fdc7a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 4,
+      "name": "Electric Pulse",
+      "email": "electric.pulse@music.com",
+      "imageUrl": "https://images.unsplash.com/photo-1598387180687-9be7e316796d?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 5,
+      "name": "Soul Harmony",
+      "email": "soul.harmony@music.com",
+      "imageUrl": "https://images.unsplash.com/photo-1635352211001-2089de8f40bd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "id": 6,
+      "name": "Thunder Road",
+      "email": "thunder.road@music.com",
+      "imageUrl": "https://images.unsplash.com/photo-1555644226-38f3afd93ebe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+  ],
+  "eventTypes": [
+    {
+      "id": 1,
+      "name": "Weddings",
+      "description": "Professional wedding photography services including ceremony, reception, and portrait sessions"
+    },
+    {
+      "id": 2,
+      "name": "Corporate Event",
+      "description": "Business events, conferences, and professional photography for corporate functions"
+    },
+    {
+      "id": 3,
+      "name": "Private Party",
+      "description": "Birthday parties, anniversaries, family gatherings, and other private celebrations"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "city": "New York",
+      "imageUrl": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80"
+    },
+    {
+      "id": 2,
+      "city": "Los Angeles",
+      "imageUrl": "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=800&q=80"
+    },
+    {
+      "id": 3,
+      "city": "Chicago",
+      "imageUrl": "https://unsplash.com/photos/photo-of-high-rise-building-tnv84LOjes4"
+    },
+    {
+      "id": 4,
+      "city": "Miami",
+      "imageUrl": "https://unsplash.com/photos/body-of-water-near-of-city-high-rise-buildings-KTdzeb28jyo"
+    },
+    {
+      "id": 5,
+      "city": "Seattle",
+      "imageUrl": "https://unsplash.com/photos/aerial-photography-of-seattle-skyline-skUTVJi8-jc"
+    },
+    {
+      "id": 6,
+      "city": "Austin",
+      "imageUrl": "https://unsplash.com/photos/man-in-black-jacket-walking-on-bridge-near-body-of-water-during-daytime-ztVcGTSD8xw"
+    },
+    {
+      "id": 7,
+      "city": "Denver",
+      "imageUrl": "https://unsplash.com/photos/denver-street-artowrk-r6BdUpN_iSk"
+    },
+    {
+      "id": 8,
+      "city": "Portland",
+      "imageUrl": "https://unsplash.com/photos/white-and-brown-concrete-building-4A56VJzKh2c"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "userId": 2,
+      "eventTypeId": 1,
+      "locationId": 1,
+      "date": "2025-11-15"
+    },
+    {
+      "id": 3,
+      "userId": 4,
+      "eventTypeId": 2,
+      "locationId": 3,
+      "date": "2025-11-07"
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "eventTypeId": 2,
+      "locationId": 3,
+      "date": "2025-11-07"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "eventTypeId": 1,
+      "locationId": 4,
+      "date": "2025-12-20"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "eventTypeId": 2,
+      "locationId": 1,
+      "date": "2025-10-15"
+    },
+    {
+      "id": 7,
+      "userId": 6,
+      "eventTypeId": 1,
+      "locationId": 5,
+      "date": "2026-01-18"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "eventTypeId": 3,
+      "locationId": 6,
+      "date": "2025-11-29"
+    },
+    {
+      "id": 9,
+      "userId": 4,
+      "eventTypeId": 1,
+      "locationId": 7,
+      "date": "2026-02-14"
+    },
+    {
+      "userId": 1,
+      "eventTypeId": 1,
+      "locationId": 1,
+      "date": "2025-09-23",
+      "id": 10
+    }
+  ],
+  "artistLocations": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "locationId": 2,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "userId": 3
+    },
+    {
+      "id": 5,
+      "locationId": 3,
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "locationId": 3,
+      "userId": 4
+    },
+    {
+      "id": 7,
+      "locationId": 4,
+      "userId": 3
+    },
+    {
+      "id": 8,
+      "locationId": 4,
+      "userId": 5
+    },
+    {
+      "id": 9,
+      "locationId": 5,
+      "userId": 4
+    },
+    {
+      "id": 10,
+      "locationId": 5,
+      "userId": 6
+    },
+    {
+      "id": 11,
+      "locationId": 6,
+      "userId": 5
+    },
+    {
+      "id": 12,
+      "locationId": 6,
+      "userId": 1
+    },
+    {
+      "id": 13,
+      "locationId": 7,
+      "userId": 6
+    },
+    {
+      "id": 14,
+      "locationId": 7,
+      "userId": 4
+    },
+    {
+      "id": 15,
+      "locationId": 8,
+      "userId": 3
+    }
+  ]
 }
